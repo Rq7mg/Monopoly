@@ -1,0 +1,7 @@
+{
+    "players": {},
+    "turn_order": [],
+    "current_turn_index": 0,
+    "board": [],
+    "started": false
+}
