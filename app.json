@@ -1,0 +1,18 @@
+{
+  "name": "monopoly-bot",
+  "description": "Telegram emoji tabanlı Monopoly bot",
+  "repository": "https://github.com/kullanici/monopoly-bot",
+  "stack": "heroku-22",
+  "env": {
+    "TOKEN": {
+      "description": "Telegram bot token",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  }
+}
